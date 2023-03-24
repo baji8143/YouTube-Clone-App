@@ -7,7 +7,7 @@ import VideoDetail from "./components/VideoDetail";
 import ChannelDetail from "./components/ChannelDetail";
 import SearchFeed from "./components/SearchFeed";
 
-const App = () => 
+const App = () => (
 <BrowserRouter>
 <Box sx={{ backgroundColor:"#000" }}>
   <Navbar/>
@@ -19,6 +19,6 @@ const App = () =>
   </Routes>
 </Box>
 </BrowserRouter>
-
+)
 export default App;
  
